@@ -1,0 +1,70 @@
+.navbar{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(84, 6, 106);
+}
+.navbar-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 100px;
+}
+hr{
+    height: 2px;
+    border: none;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.nav-logo-img{
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    /* opacity: 0.5; */
+    left: -10px;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.nav-link{
+    text-decoration: none;
+    color: rgb(221, 193, 221);
+    font-size: 15px;
+    border: 1px solid rgb(109, 51, 124);
+    border-radius: 27px;
+    padding: 3px 15px;
+    transition: all 0.3s ease-in-out;
+    &:hover{
+        border: 1px solid rgb(109, 51, 124);
+        background-color: rgb(109, 51, 124);
+        color: rgb(215, 146, 205);
+    }
+}
+.nav-home,.nav-project,.nav-about, .nav-link-contact{
+    border: 1px solid rgb(109, 51, 124);
+    background-color: rgb(109, 51, 124);
+    color: rgb(215, 146, 205);
+}
+.nav-contact{
+    display: flex;
+    align-items: center;
+}
+.nav-contact-icon{
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
+    outline: none;
+}
+.nav-contact-link{
+    font-size: 15px;
+    color: white;
+    transition: all 0.3s ease-in;
+    &:hover{
+        transform: scale(1.03);
+    }
+}

@@ -1,0 +1,129 @@
+.home {
+    width: 100%;
+  }
+.home-firstsection{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(55, 21, 71);
+    /* background: center/cover url("https://media.istockphoto.com/id/945451566/photo/black-blank-stationery-set-with-phone-earphone-coffee-on-dark-wood-background-inclined.jpg?b=1&s=170667a&w=0&k=20&c=Rn4U2wrj1BKpzk-A8He4tcHlu7fL9OsAYN8j5yetoJQ=") no-repeat; */
+    height: 76vh;
+  }
+.home-left{
+  display: flex;
+  align-items: center;
+  margin: 50px 0px;
+  margin-right: 80px;
+}
+.home-left-img{
+  background-color: rgb(61, 5, 85);
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  opacity: 0.5;
+}
+.home-right{
+  display: flex;
+  flex-direction: column;
+  margin-left: 80px;
+  margin-top: 80px;
+  color: rgb(230, 184, 223);
+  gap: 15px;
+}
+.home-right1{
+  display: flex;
+  align-items: center;
+}
+.home-right1-h2{
+  font-size: 25px;
+  font-weight: 600;
+}
+.home-right1-img {
+  width: 50px;
+  height: 50px;
+  animation: blinking 2s infinite;
+}
+
+@keyframes blinking {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.home-right2{
+  .home-right2-h1{
+    width: 60%;
+    font-size: 40px;
+    line-height: 70px;
+    font-weight: 600;
+    color: rgb(103, 53, 126);
+  }
+}
+.home-right4{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.home-right-img{
+  width: 40px;
+  height: 40px;
+  transition: all 0.2s ease-in;
+  &:hover{
+    transform: scale(0.90);
+  }
+}
+.hacker,.linked{
+  width: 33px;
+  height: 33px;
+}
+
+.home-secondsection{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #291C3A;
+}
+.home-second1,.home-second2{
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.home-second1-p{
+  color: #a67cdd;
+  width: 40%;
+}
+.home-second2-p{
+  color: #a67cdd;
+  width: 50%;
+}
+.home-second1-h1,.home-second2-h1{
+  font-size: 55px;
+  color: rgb(230, 184, 223);
+}
+.home-second3{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.home-second3-h1{
+  font-size: 43px;
+  font-weight: 500;
+  color: white;
+  transition: all 0.2s ease-in;
+  &:hover{
+    transform: scale(0.90);
+  }
+}
+.home-second3-img{
+  width: 45px;
+  height: 45px;
+  transition: all 0.2s ease-in;
+  &:hover{
+    transform: scale(0.90);
+  }
+}

@@ -1,0 +1,29 @@
+.skill{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skill-h2 {
+    color: #360348;
+    text-align: center;
+    font-size: 35px;
+    margin: 40px 0px;
+}
+.skill-p{
+    color: #360348;
+    font-size: 25px;
+}
+.skill-images{
+    margin: 40px 200px;
+    text-align: center;    
+}
+.skill-img{
+    margin: 20px;
+    width: 90px;
+    height: 90px;
+}
+.skill-img3{
+    width: 80px;
+    height: 80px;
+}
