@@ -1,7 +1,7 @@
 .project {
     background-color: rgb(245, 235, 244);
     padding: 20px;
-    padding-bottom: 80px;
+    margin-bottom: 120px;
   }
   
   .project-h2 {
@@ -19,6 +19,7 @@
   .project-p1 {
     color: #360348;
     font-size: 25px;
+    margin-bottom: 50px;
   }
   
   .project-card {
@@ -32,7 +33,7 @@
     background: linear-gradient(to left, #ba31ec 50%, rgb(245, 235, 244) 50%);
     background-size: 200% 100%;
     background-position: right bottom;
-    height: 500px;
+    height: 600px;
   }
   
   .project-card:hover {
@@ -50,22 +51,18 @@
   }
   
   .project-card-title{
-    height: 225px;
+    height: 295px;
   }
   .project-card-h4 {
-    font-size: 20px;
+    font-size: 23px;
     font-weight: 500;
-    margin-bottom: 4px;
+    margin-bottom: 5px;
   }
   
   .project-card-p2 {
     color: #2d272e;
-    font-size: 16px;
-    margin: 0px 5px;
-  }
-  
-  .genome-p {
-    /* height: 168px; */
+    font-size: 18px;
+    margin: 0px 8px;
   }
   
   .project-card-skills {
@@ -160,11 +157,7 @@
     font-size: 16px;
     margin: 0px 5px;
   }
-  
-  .genome-p {
-    /* height: 168px; */
-  }
-  
+
   .project-card-skills {
     display: flex;
     flex-wrap: wrap;
@@ -173,46 +166,13 @@
   }
   
   .project-card-skill {
-    background-color: #fff;
     padding: 5px 10px;
     border-radius: 5px;
     font-size: 14px;
-    color: #360348;
-  }
-  
-  .project-card-btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 55%;
-    gap: 7px;
-    margin: auto;
-    margin-bottom: 0;
-    border: 1px solid rgb(243, 165, 243);
-    border-radius: 20px;
-    transition: all 0.2s ease-in;
-  }
-  
-  .project-card-btn:hover {
-    border: 1px solid #f30ad8;
-    transform: scale(0.95);
-    cursor: pointer;
   }
   
   .project-card-img12 {
     width: 20px;
     height: 20px;
-  }
-  
-  .project-card-a {
-    margin-bottom: 4px;
-    color: #e2b7f2;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: 400;
-    &:hover{
-      color: #f30ad8;
-      
-    }
   }
 }
