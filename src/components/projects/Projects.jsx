@@ -36,7 +36,7 @@ const Projects = () => {
             <div className='project-card-title'>
               <h4 className='project-card-h4'>Social-Network Application</h4>
               <p className='project-card-p2'>
-                This is my social networking project, through which users can connect with their friends, see their posts, and like and comment on their posts as well. Also, users can share the posts and their thoughts.
+                This is our social networking team project, through which users can connect with their friends, see their posts, and like and comment on their posts as well. Also, users can share the posts and their thoughts.
               </p>
               <div className='project-card-skills'>
                 <p className='project-card-skill'>React</p>
@@ -58,7 +58,7 @@ const Projects = () => {
             <div className='project-card-title'>
               <h4 className='project-card-h4'>E-Commerce Website</h4>
               <p className='project-card-p2'>
-                I have created this E-Commerce website using ReactJS(frontend) and NodeJS(backend). Also created Admin Panel through which admin can, upload new products on the website or remove products from the website. Users can fetch data dynamically from backend side using API.
+                We have created this E-Commerce website using ReactJS(frontend) and NodeJS(backend). Also created Admin Panel through which admin can, upload new products on the website or remove products from the website. Users can fetch data dynamically from backend side using API.
               </p>
               <div className='project-card-skills'>
                 <p className='project-card-skill'>React</p>
@@ -107,28 +107,6 @@ const Projects = () => {
                 <p className='project-card-skill'>Angular</p>
                 <p className='project-card-skill'>Node.js</p>
                 <p className='project-card-skill'>PostgreSQL</p>
-              </div>
-            </div>
-            <div className='project-card-btn'>
-              <img className='project-card-img12' src='https://img.icons8.com/?size=100&id=62856&format=png&color=000000' alt='' />
-              <a className='project-card-a' href='/'>view code</a>
-            </div>
-          </div>
-        </div>
-        <div className='project-card'>
-          <div className='project-card-img1'>
-            <img className='project-card-img11' src={projectImg1} alt='' />
-          </div>
-          <div className='project-card-details'>
-            <div className='project-card-title'>
-              <h4 className='project-card-h4'>Whole Genome Sequence Analysis</h4>
-              <p className='project-card-p2 genome-p'>
-                This is my last year project completed with a team of 3 member. My role was to analyze the large dataset of sequence genome and build the front-end for the website.
-              </p>
-              <div className='project-card-skills'>
-                <p className='project-card-skill'>Python</p>
-                <p className='project-card-skill'>React</p>
-                <p className='project-card-skill'>Django</p>
               </div>
             </div>
             <div className='project-card-btn'>
