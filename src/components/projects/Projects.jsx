@@ -143,9 +143,9 @@ const Projects = () => {
           </div>
           <div className='project-card-details'>
             <div className='project-card-title'>
-              <h4 className='project-card-h4'>My Portfolio</h4>
+              <h4 className='project-card-h4'>Online Portfolio</h4>
               <p className='project-card-p2'>
-                It's my online portfolio where provided introduction about myself like:- Education, Contacts, Interests, Achievements, Work experience, Projects, Skills used in Projects and other skills. Also Clients can leave message to me regarding the projects issues or want to develop the website for themselves.
+                It's an online portfolio where provided introduction about what is making for, like:- Contacts, Achievements, Work experience, team members, purpose, Projects, Skills used in Projects and other skills. Also Clients can leave message to me regarding the projects issues or want to develop the website for themselves.
               </p>
               <div className='project-card-skills'>
                 <p className='project-card-skill'>React</p>
