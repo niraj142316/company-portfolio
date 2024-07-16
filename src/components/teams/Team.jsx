@@ -3,8 +3,9 @@ import React from 'react';
 import './team.css';
 import member1Img from '../../assets/nirajImg.png';
 import member2Img from '../../assets/kusum3.jpg';
-import member3Img from '../../assets/bhura10.jpg';
-import member4Img from '../../assets/divya1.jpg'
+import member3Img from '../../assets/manish2.jpg';
+import member4Img from '../../assets/divya1.jpg';
+import member5Img from '../../assets/nishant.jpg';
 
 const Team = () => {
   const teamMembers = [
@@ -52,6 +53,16 @@ const Team = () => {
       name: 'Divya Rajput',
       role: 'Chief Finance Officer',
       image: member4Img,
+      social: {
+        linkedin: 'https://www.linkedin.com/in/charliewhite',
+        twitter: 'https://twitter.com/charliewhite',
+        facebook: 'https://facebook.com/charliewhite'
+      }
+    },
+        {
+      name: 'Nishant Sharma',
+      role: 'Angular Developer',
+      image: member5Img,
       social: {
         linkedin: 'https://www.linkedin.com/in/charliewhite',
         twitter: 'https://twitter.com/charliewhite',
